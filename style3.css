@@ -1,0 +1,232 @@
+body {
+    background-color: #219C62;
+    color: #777;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+
+#heading {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: #444;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: #444;
+}
+a:hover {
+    color: #02b8dd;
+}
+header {
+    height: 120px;
+}
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+header h1 .color {
+    color: #02b8dd;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    float: left;
+    display: inline-block;
+    margin-top: 50px;
+}
+header nav ul li a {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+.choose
+{
+	background-color: black;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	opacity: 0.8;
+	font-family: 'Crete Round', serif;
+    font-size: 20px;
+}
+.choose button{
+	font-family: 'Crete Round', serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.dashboard
+{
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 20px;
+}
+#test1, #test2, #test3{
+	margin-bottom: 50px; 
+}
+.dashboard h2{
+	font-family: 'Crete Round', serif;
+	color: black;
+	font-size: 35px;
+	padding-bottom: 20px;
+	border-bottom: 2px black solid;
+	margin-bottom: 20px;
+}
+.dashboard p{
+	color: white;
+	font-family: 'Crete Round', serif;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+.dashboard button{
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: 'Crete Round', serif;
+	background-color: #20A922;
+	color: white;
+	padding-top: 7px;
+	padding-bottom: 7px;
+
+}
+.dashboard button:hover{
+	background-color: white;
+	color: #20A922;
+	font-weight: bold;
+}
+.scores
+{
+	background-color: lightgray;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 50px;
+}
+#op1
+{
+	display: block;
+}
+#op2{
+	display: none;
+}
+.scores h2{
+color: black;
+font-size: 35px;
+font-family: 'Crete Round', serif;
+}
+
+.scores button{
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-family: 'Crete Round', serif;
+	background-color: #36BFCA;
+	color: white;
+	padding-top: 7px;
+	padding-bottom: 7px;
+
+}
+.scores button:hover{
+	background-color: white;
+	color: #36BFCA;
+	font-weight: bold;
+}
+#profile
+{
+	background-color: lightgray;
+}
+#prpic{
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	/*margin-left: 40%;*/
+}
+.wrapper2 {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 50%;
+    background-color: gray;
+    padding-top: 60px;
+    padding-left: 30px; 
+    padding-bottom: 50px;
+}
+#name{
+	font-family: 'Crete Round', serif;
+	font-size: 30px;
+	/*margin-left: 18%;*/
+	color: black;
+	/*padding-left: 70px;*/
+}
+#left{
+	font-family: 'Crete Round', serif;
+	font-size: 20px;
+	color: black;
+}
+#right{
+	font-family: 'Crete Round', serif;
+	font-size: 15px;
+	color: white;
+	padding-left: 20px;
+}
+#adjust{
+	margin: auto;
+	text-align: center;
+}
+#editbu{
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-family: 'Crete Round', serif;
+	background-color: #36BFCA;
+	color: white;
+	padding-top: 4px;
+	padding-bottom: 4px;
+
+}
+#editbu:hover{
+	background-color: white;
+	color: #36BFCA;
+	font-weight: bold;
+}
+#edit{
+	margin: auto;
+	text-align: center;
+}
+.wrapper3 {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 50%;
+    background-color: lightgray;
+    padding-top: 60px;
+    padding-left: 30px; 
+    padding-bottom: 50px;
+}
+#editprofile{
+	background-color: gray;
+	font-family: 'Crete Round', serif;
+	font-size: 20px;
+	color: black;
+	display: none;
+}
+#sub1
+{
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-family: 'Crete Round', serif;
+	background-color: green;
+	color: white;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}

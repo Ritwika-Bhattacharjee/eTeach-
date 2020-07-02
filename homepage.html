@@ -1,0 +1,386 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Simply</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <style>
+        #registerbox{
+            background-color: #77D8AF;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Crete Round', serif;
+    border-radius: 30px;
+    border: 3px solid black;
+    width: 40%;
+    margin: auto;
+    display: none;
+        }
+        #loginbox{
+            background-color: #77D8AF;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Crete Round', serif;
+    border-radius: 30px;
+    border: 3px solid black;
+    width: 40%;
+    margin: auto;
+    display: none;
+
+        }
+        
+        #regtbl{ 
+border-collapse:separate; 
+border-spacing: 0 25px;
+font-size: 20px;
+color: black; 
+} 
+#regtbl td{
+    padding-left: 20px;
+}
+#sub2, #sub3{
+    font-family: 'Crete Round', serif;
+    background-color: green;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.linkbu{
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+    background-color: #219C62;
+    border: none;
+    font-size: 16px;
+}
+.linkbu:hover{
+    color: #02b8dd;
+}
+
+    </style>
+
+
+</head>
+ 
+<body>
+    <script>
+        function showregister(){
+            element = document.getElementById("registerbox");
+            element.style.display="block";
+        }
+        function showregister2(){
+            element1 = document.getElementById("registerbox");
+            element2 = document.getElementById("loginbox");
+
+            element1.style.display="block";
+            element2.style.display="none";
+            }
+        function hideregister(){
+            element = document.getElementById("registerbox");
+            element.style.display="none";
+        }
+        function hidelogin(){
+            element = document.getElementById("loginbox");
+            element.style.display="none";
+        }
+        function showlogin(){
+            element = document.getElementById("loginbox");
+            element.style.display="block";
+        }
+        function showlogin2(){
+            element1 = document.getElementById("registerbox");
+            element2 = document.getElementById("loginbox");
+
+            element2.style.display="block";
+            element1.style.display="none";
+            }
+
+    </script>
+	<header>
+    <div class="wrapper">
+        <h1>eTeach</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><button class="linkbu" onclick="showregister()">Register</button></li>
+                <li><button class="linkbu" onclick="showlogin()">Login</button></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div id="hero-image">
+    <div class="wrapper">
+        <h2 id="red"><strong>A Completely Digitalised</strong><br/>
+        platform for recruiting teachers.</h2>
+        <a href="#" class="button-1" onclick="showregister()">Get Started</a>
+        <br><br><br>
+    </div>
+</div>
+
+<div id="features">
+    <div class="wrapper">
+        <ul>
+            <li class="feature-1">
+                <h4>Easy to Edit</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
+            </li>
+            <li class="feature-2">
+                <h4>Layered PSD</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
+            </li>
+            <li class="feature-3">
+                <h4>Ready to Go</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+</div>
+
+
+<div id="primary-content">
+    <div class="wrapper">
+        <article>
+            <h3>Our Gallery</h3>
+            <p>Take a look at some of the memorable events organised, conducted and supported by the teachers recruited by us. </p>
+        </article>
+        <table>
+            <tr>
+                <td>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <img src="back1.jpg" alt="Avatar" style="width:300px;height:300px; margin: 5px 5px 5px 5px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <br>
+                          <h1>Earth Day Event</h1> 
+                          <p>Celebrating earth day by planting trees across the campus</p> 
+                          <p>Organised by Ms.Jessica(Senior Secondary Maths Teacher)</p>
+                        </div>
+                      </div>
+                    </div>
+
+                </td>
+                <td>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <img src="back2.jpg" alt="Avatar" style="width:300px;height:300px; margin: 5px 5px 5px 5px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <br>
+                          <h1>Science Day Quiz</h1> 
+                          <p>Science Quiz competition for primary students with cash prize of over 2000</p> 
+                          <p>Organised by Mr.Sarvesh Kumar(Primary Math Teacher)</p>
+                        </div>
+                      </div>
+                    </div>
+
+                </td>
+                <td>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <img src="back3.jpg" alt="Avatar" style="width:300px;height:300px; margin: 5px 5px 5px 5px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <br>
+                          <h1>Science Day Quiz</h1> 
+                          <p>Science Quiz competition for primary students with cash prize of over 2000</p> 
+                          <p>Organised by Mr.Sarvesh Kumar(Primary Math Teacher)</p>
+                        </div>
+                      </div>
+                    </div>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <img src="back4.jpg" alt="Avatar" style="width:300px;height:300px; margin: 5px 5px 5px 5px;">
+                        </div>
+                        <div class="flip-card-back">
+                          <br>
+                          <h1>Science Day Quiz</h1> 
+                          <p>Science Quiz competition for primary students with cash prize of over 2000</p> 
+                          <p>Organised by Mr.Sarvesh Kumar(Primary Math Teacher)</p>
+                        </div>
+                      </div>
+                    </div>
+
+                </td>
+                <td>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <img src="back5.png" alt="Avatar" style="width:300px;height:300px; margin: 5px 5px 5px 5px;">
+                        </div>
+                        <div class="flip-card-back">
+                          <br>
+                          <h1>Science Day Quiz</h1> 
+                          <p>Science Quiz competition for primary students with cash prize of over 2000</p> 
+                          <p>Organised by Mr.Sarvesh Kumar(Primary Math Teacher)</p>
+                        </div>
+                      </div>
+                    </div>
+
+                </td>
+                <td>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <img src="back6.jpg" alt="Avatar" style="width:300px;height:300px; margin: 5px 5px 5px 5px;">
+                        </div>
+                        <div class="flip-card-back">
+                          <br>
+                          <h1>Science Day Quiz</h1> 
+                          <p>Science Quiz competition for primary students with cash prize of over 2000</p> 
+                          <p>Organised by Mr.Sarvesh Kumar(Primary Math Teacher)</p>
+                        </div>
+                      </div>
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+        <br>
+        <a href="gallery.php" class="button-1">View More</a>
+    </div>
+</div>
+
+
+<div id="secondary-content">
+    <div class="wrapper">
+        <h3>ABOUT US</h3>
+        <article style="background-image: url('images/article-image-1.jpg');">
+            <div class="overlay">
+                <h4>What's eIntern?</h4>
+                <p><small>eIntern is a completely free online platform for recruiting interns for a monthly period. </small></p>
+                <a href="#" class="more-link">View more</a>
+            </div>
+        </article>
+        <article style="background-image: url('images/article-image-2.jpg');">
+            <div class="overlay">
+                <h4>Secondary Content</h4>
+                <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod leo a nibh dignissim tincidunt nam.</small></p>
+                <a href="#" class="more-link">View more</a>
+            </div>
+        </article><div class="clear"></div>
+    </div>
+</div>
+
+
+<div id="cta">
+    <div class="wrapper">
+        <h3>Heard Enough?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod leo a nibh dignissim tincidunt. Nam ultricies odio ac neque suscipit volutpat. Ut dictum adipiscing felis sed malesuada. Integer porta sem nec nibh hendrerit imperdiet. </p>
+        <a href="#" class="button-2">Get Started</a>
+    </div>
+</div>
+
+
+<footer>
+    <div class="wrapper">
+        <div id="footer-info">
+            <p>Copyright 2014 CompanyName. All rights reserved.</p>
+            <p><a href="#">Terms of Service</a> I <a href="#">Privacy</a></p>
+        </div>
+        <div id="footer-links">
+            <ul>
+                <li><h5>Company</h5></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Meet The Team</a></li>
+                <li><a href="#">What We Do</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+            <ul>
+                <li><h5>Company</h5></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Meet The Team</a></li>
+                <li><a href="#">What We Do</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+            <ul>
+                <li><h5>Company</h5></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Meet The Team</a></li>
+                <li><a href="#">What We Do</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+</footer>
+
+<div id="registerbox" style="text-align: center; position: absolute; top: 20%; left: 30%;">
+    <img src="close.png" style="margin-left: 100%; margin-top: 1%;" onclick="hideregister()">
+    <form style="width: 70%; margin: auto; padding-top: 50px;" method="POST" action="registerprocess.php">
+        <table id="regtbl">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="text" name="password"></td>
+            </tr>
+        </table>
+        <input type="submit" name="sub2" value="Register" id="sub2">
+    </form>
+    <br>
+    <p>Already have an account? <button onclick="showlogin2()">Click here to login!</button></p>
+</div>
+
+
+<div id="loginbox" style="text-align: center; position: absolute; top: 20%; left: 30%;">
+    <img src="close.png" style="margin-left: 100%; margin-top: 1%;" onclick="hidelogin()">
+    <form style="width: 70%; margin: auto; padding-top: 50px;" action="loginprocess.php" method="POST">
+        <table id="regtbl">
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="logname"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="text" name="logpass"></td>
+            </tr>
+        </table>
+        <input type="submit" name="sub3" value="Login" id="sub3">
+    </form>
+    <br>
+    <p>Don't have an account? <button onclick="showregister2()">Register Now!</button></p>
+</div>
+
+
+
+
+
+
+</body>
+</html>
