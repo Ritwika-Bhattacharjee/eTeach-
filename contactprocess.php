@@ -14,7 +14,7 @@ $query = $_POST["query"];
 	$mail->SMTPSecure = 'tls';
 
 	$mail->Username='riya19262619@gmail.com';
-	$mail->Password='ranwikakapoor';
+	$mail->Password='####YOUR PASSWORD####';
 
 	$mail->setFrom('ritspure@gmail.com');
 	$mail->addAddress('cheesemadhucrackers@gmail.com');
